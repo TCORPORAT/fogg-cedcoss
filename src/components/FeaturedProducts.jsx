@@ -11,7 +11,7 @@ function FeaturedProducts() {
         <Row className="my_2-6-0">
         <Col xs={6} md={4} lg={3}>
         <Card className='border-0 card_w_hover'>
-        <Card.Img variant="top" src="/images/3.png" />
+        <Card.Img variant="top" src="/images/sg3.png" />
         <Card.Body className="">
         <Card.Text className="font-14">
           Fogg Scent Trump Eau De Parfum 50ml
@@ -25,7 +25,7 @@ function FeaturedProducts() {
 
         <Col xs={6} md={4} lg={3}>
         <Card className='border-0 card_w_hover'>
-        <Card.Img variant="top" src="/images/9.png" />
+        <Card.Img variant="top" src="/images/sg2.png" />
       <Card.Body className="">
       <Card.Text className="font-14">
           Fogg Scent Trump Eau De Parfum 50ml
@@ -39,7 +39,7 @@ function FeaturedProducts() {
 
         <Col xs={6} md={4} lg={3}>
         <Card className='border-0 card_w_hover'>
-        <Card.Img  className="p-3" variant="top" src="/images/16.png" />
+        <Card.Img  className="p-3" variant="top" src="/images/sg4.png" />
       <Card.Body className="">
       <Card.Text className="font-14">
           Fogg Scent Trump Eau De Parfum 50ml
@@ -53,7 +53,7 @@ function FeaturedProducts() {
 
         <Col xs={6} md={4} lg={3}>
         <Card className='border-0 card_w_hover'>
-        <Card.Img variant="top" src="/images/4.png" />
+        <Card.Img variant="top" src="/images/sg1.png" />
       <Card.Body className="">
       <Card.Text className="font-14">
           Fogg Scent Trump Eau De Parfum 50ml

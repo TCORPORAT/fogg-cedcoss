@@ -10,6 +10,7 @@ import Slider from './components/Slider';
 import HeadingLine from './components/HeadingLine';
 import KnowMore from './components/KnowMore';
 import Footer from './components/Footer';
+import FeaturedProducts from './components/FeaturedProducts';
 
 
 
@@ -24,6 +25,8 @@ function App() {
    <Categories/>
    <HeadingShadow text={'New Arrivals'} />
    <NewArrivals />
+   <HeadingShadow text={'Featured Products'} />
+   <FeaturedProducts />
    <Slider />
    </Container>
    <Footer />
