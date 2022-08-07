@@ -153,6 +153,10 @@ padding: 3rem;
 }
 /* CARD */
 
+.card{
+  cursor: pointer;
+}
+
 .category_card[data-type="category"]{
 background-image: url(../public/images/0.png);
 background-size: cover;
