@@ -11,6 +11,8 @@ import HeadingLine from './components/HeadingLine';
 import KnowMore from './components/KnowMore';
 import Footer from './components/Footer';
 import FeaturedProducts from './components/FeaturedProducts';
+import Banner from './components/Banner';
+import SeasonImages from './components/SeasonImages';
 
 
 
@@ -25,8 +27,11 @@ function App() {
    <Categories/>
    <HeadingShadow text={'New Arrivals'} />
    <NewArrivals />
+   <Banner />
    <HeadingShadow text={'Featured Products'} />
    <FeaturedProducts />
+   <HeadingShadow text={'Season Edits'} />
+   <SeasonImages />
    <Slider />
    </Container>
    <Footer />

@@ -39,6 +39,17 @@ body{
 }
 
 /* NAV */
+
+.top-nav{
+  background-color: var(--color-primary-black);
+  padding: .5rem 0;
+  text-align: center;
+}
+
+.top-nav p{
+  margin-bottom: 0;
+}
+
 .main-logo-mb{
   display: none;
 }
@@ -248,7 +259,7 @@ section.section-header:before {
   position: relative;
   margin: 28px auto;
   text-align: center;
-  font-weight: 300;
+  /* font-weight: 300; */
   width: fit-content;
   z-index: 10;
   text-transform: uppercase;
@@ -288,6 +299,45 @@ justify-content: center;
   display: none;
 }
 
+/* BANNER */
+
+.banner{
+  background-image: url('/public/images/fgBanner.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 8rem 0;
+}
+
+.banner-text{
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.banner-text img{
+  width: 150px;
+}
+
+.banner-text h1 {
+  letter-spacing: 10px;
+}
+
+.banner-text  .know-btn{
+  justify-content: center;
+}
+
+/* GRID IMAGES */
+
+.grid-images{
+  display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+}
+
 
 .footer-w-bg{
   background-color: var(--color-bg-gray);
@@ -299,6 +349,7 @@ justify-content: center;
 
 .footer-inner{
   padding-bottom: 10rem;
+  margin-top: -3rem;
 }
 
 .logo-wrapper{
@@ -325,10 +376,33 @@ justify-content: center;
 .off-nd-email{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.subscribe-email .subscribe-input{
+  color: var(--bs-white);
+  border: 2px solid var(--bs-white);
+  background: transparent;
+  padding: 10px 1rem;
+  width: 512px;
+  border-right: 0;
+}
+
+.subscribe-email button{
+  color: var(--bs-white);
+  padding: 10px 1rem;
+  background: var(--bs-yellow);
+  border: 2px solid var(--bs-white);
+}
+
+.subscribe-email button:hover{
+  background: var(--color-primary-black);
+  border: 2px solid var(--color-accent-yellow);
 }
 
 .footer-links{
 	list-style-type: none;
+  padding-left: 0;
 }
 
 .footer-links li{
@@ -349,6 +423,33 @@ justify-content: center;
 	margin-bottom: 0;
 }
 
+
+.payments-off-text {}
+
+.payments-off-text p {
+  font-size: var(--font-size-text18);
+}
+
+.payments-off-text span {
+  color : var(--color-accent-yellow);
+}
+
+.copyright-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright-footer img{
+  width: 78%;
+}
+
+.copyright-footer-wrap{
+  padding: 2rem 0;
+}
+
+.w-spacing{
+  width: 50%;
+}
 
 
 @media (min-width: 992px){
@@ -406,6 +507,27 @@ justify-content: center;
     display: none;
   }  
 
+  .banner{
+    background-size: 170% 100%;
+     padding: 2rem 0;
+ }
+ 
+ .banner-text{
+   width: 100%;
+   background-color: #000000d1;
+   padding: 1rem 0;
+ }
+ 
+ .banner-text p{
+   padding: 0 2rem;
+ }
+ 
+ 
+ .section-header-line .heading_inner_wrap h6{
+   margin: 28px auto;
+ }
+ 
+
 .float-margins{
   margin-top: unset;
 margin-left: unset;
@@ -421,6 +543,37 @@ margin-left: unset;
 
 .logo-wrapper{
   margin: 0 auto;
+}
+
+.grid-images{
+  margin-top: 1.6rem;
+}
+
+
+.footer-inner{
+	padding-bottom: 3rem;
+}
+
+.copyright-footer img{
+	width: 100%;
+}
+
+.copyright-footer{
+    gap: 30px;
+    align-items: center;
+}
+
+.off-nd-email{
+	flex-direction: column;
+
+}
+
+.subscribe-email .subscribe-input{
+	width: fit-content;
+}
+
+.w-spacing{
+  width: 100%;
 }
 
 

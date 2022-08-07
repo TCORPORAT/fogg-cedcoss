@@ -5,6 +5,10 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Header() {
   return (
+    <>
+    <div className="top-nav">
+      <p className='font-14'>AUTHORIZED UK DEALERS WITH A 30 DAY RETURN POLICY</p>
+    </div>
     <Navbar className="nav_behind" collapseOnSelect expand="lg" bg="transparent" variant='dark'>
       <Container>
       <Navbar.Brand href="#home" className="align-items-center ml-auto">
@@ -50,6 +54,7 @@ function Header() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </>
   );
 }
 

@@ -1,10 +1,15 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import HeadingLine from './HeadingLine';
 import 'swiper/css';
 
 let Slider = () => {
   return (
+    <>
+    <div className='w-spacing'>
+    <HeadingLine text="What Customers Asking" fsize="font-34" sectionClass=""/>
+    </div>
     <Swiper
       spaceBetween={50}
       slidesPerView={1}
@@ -12,7 +17,7 @@ let Slider = () => {
       onSwiper={(swiper) => console.log(swiper)}
     >
     
-        <SwiperSlide>
+        <SwiperSlide className='my_2-6-0'>
         <Row>
         <Col xs={6}>Slide 1</Col>
         <Col xs={6}>Image</Col>
@@ -26,6 +31,7 @@ let Slider = () => {
         </Row>
         </SwiperSlide>
     </Swiper>
+    </>
   );
 };
 

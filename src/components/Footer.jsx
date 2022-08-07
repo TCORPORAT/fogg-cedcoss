@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 
 function Footer() {
     return (
+        <>
       <footer className="footer-w-bg ">
       <Container>
       <div className="logo-wrapper" >
@@ -16,13 +17,13 @@ function Footer() {
                     <p>Get <span>20% OFF</span> On PrePaid Payments</p>
                 </div>
 
-                <div className="susbscribe-email">
+                <div className="subscribe-email">
                 <input className="subscribe-input" type="email" />
                 <button>SUBSCRIBE</button>
                 </div>
             </div>
             <Row>
-                <Col lg={3}>
+                <Col lg={3} sm={6}>
                     <ul className="footer-links">
                         <h6>CONTACT</h6>
                         <li>
@@ -40,7 +41,7 @@ function Footer() {
                     </ul>
                 </Col>
 
-                <Col lg={3}>
+                <Col lg={3} sm={6}>
                     <ul className="footer-links">
                     <h6>QUICK LINKS</h6>
                         <li>
@@ -67,7 +68,7 @@ function Footer() {
                     </ul>
                 </Col>
 
-                <Col lg={3}>
+                <Col lg={3} sm={6}>
                     <ul className="footer-links">
                     <h6>About</h6>
                         <li>
@@ -94,7 +95,7 @@ function Footer() {
                     </ul>
                 </Col>
 
-                <Col lg={3}>
+                <Col lg={3} sm={6}>
                     <ul className="footer-links">
                     <h6>POLICIES & MORE</h6>
                         <li>
@@ -125,7 +126,16 @@ function Footer() {
             </Row>
         </div>
         </Container>
-      </footer>  
+      </footer> 
+      <div className='copyright-footer-wrap'>
+      <Container>
+      <div className='copyright-footer'>
+        <div className="payment-partners"><img src="/public/images/17.png" alt="" /></div>
+        <div className='copyright'>Copyright © FOGG 2022</div>
+        </div>
+        </Container>
+      </div>
+      </>
     )
 }
 
